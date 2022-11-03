@@ -1,4 +1,11 @@
-
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+        
+        
+        
         .box{
             width: 400px;
             height: 400px;
@@ -10,4 +17,23 @@
             width: 400px;
             height: 400px;
             background-color: blue;
+        }
+
+        /* #rounded-img{
+            width: 200px;
+            height: 200px;
+            border-radius: 200px;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+            border-radius: 200px;
+        } */
+        .rounded-img{
+            width: 200px;
+            height: 200px;
+            border-radius: 200px;
+        }
+        * {
+            color: blue;
         }
