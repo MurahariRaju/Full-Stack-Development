@@ -37,3 +37,10 @@
         * {
             color: blue;
         }
+        .flex-container{
+            display: felx;
+
+        }
+        .flex-item{
+            flex: 1 1 100px;
+        }
