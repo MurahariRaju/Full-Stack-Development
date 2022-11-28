@@ -1,0 +1,41 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.help-main-text{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    place-items: center;
+    padding-top:200px ;
+    color: white;
+    padding-bottom: 8px;
+}
+#search{
+    width:550px;
+    height: 70px;
+    border-radius: 12px 0px 0px 12px;
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 16px;
+}
+.search-btn{
+    width: 66px;
+    height: 66px;
+    padding: 0px;
+    margin: 0px;
+    background-color:#ffffff;
+}
+.search-btn:hover{
+    background-color: #ebeff3;
+    scale: 1.1;
+
+}
+.footer-content{
+    display: grid;
+}
+.footer-img{
+    width:64px;
+    height: 64px;
+    margin:20px 5px;
+}
