@@ -1,0 +1,25 @@
+
+.main-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.header-right{
+    height: 100px;
+    width: 100%;
+    padding: 8px;
+    padding-left: 48px;
+    color: #fc8e3a;
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 10px;
+}
+.left-header-ele{
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    
+}
