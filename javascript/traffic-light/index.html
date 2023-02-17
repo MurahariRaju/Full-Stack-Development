@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div>
+      <h1>Traffic Light</h1>
+      <div class="grid-box">
+        <div class="wrapper">
+          <button class="btn" id="stopButton" onclick="stopButton()" >Stop</button>
+          <button class="btn" id="readyButton" onclick="readyButton()">Ready</button>
+          <button class="btn" id="goButton" onclick="goButton()">Go</button>
+        </div>
+        <div class="background-box">
+          <div class="box1" id="stopLight"></div>
+          <div class="box2" id="readyLight"></div>
+          <div class="box3" id="goLight"></div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
